@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import ExampleTs from "./exampleTs";
+import FirstText from "./FirstText";
 
 function App() {
   return (
     <div className="App">
-      <ExampleTs title="Hello EveryOne" />
+      <FirstText title="Hello EveryOne" color="green" />
     </div>
   );
 }
